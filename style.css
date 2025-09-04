@@ -76,10 +76,11 @@ header h1 {
 }
 
 .card img {
-  width: 100%;
-  max-width: 160px;
+  width: 160px;   /* tamanho fixo */
+  height: 160px;  /* mantém quadrado */
+  object-fit: cover; /* corta sem deformar */
   margin-bottom: 12px;
-  border-radius: 8px;
+  border-radius: 12px;
 }
 
 .card h3 {
