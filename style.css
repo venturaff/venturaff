@@ -94,3 +94,31 @@ header h1 {
   font-weight: bold;
   color: #00ff99;
 }
+
+.card.grupo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  background: rgba(255, 215, 0, 0.1); /* fundo com tom dourado leve */
+  border: 2px solid #FFD700;
+  border-radius: 12px;
+}
+
+.card.grupo h3 {
+  margin: 0;
+  color: #FFD700;
+  font-size: 18px;
+}
+
+.card.grupo p {
+  margin: 0;
+  font-size: 14px;
+  color: #fff;
+}
+
+.card.grupo img.grupo-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
