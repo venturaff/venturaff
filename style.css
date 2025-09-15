@@ -26,7 +26,7 @@
   width: 120px;   /* tamanho */
   height: 120px;
   border-radius: 50%; /* redonda */
-  border: 3px solid #FFD700; /* borda dourada */
+  border: 3px solid #A020F0; /* borda roxa */
   object-fit: cover; /* corta certinho dentro do círculo */
 }
 
