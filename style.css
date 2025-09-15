@@ -23,10 +23,11 @@
 }
 
 .logo img {
-  width: 120px;   /* tamanho da logo */
+  width: 120px;   /* tamanho */
   height: 120px;
-  border-radius: 50%; /* deixa redonda */
-  border: 3px solid #FFD700; /* borda dourada opcional */
+  border-radius: 50%; /* redonda */
+  border: 3px solid #FFD700; /* borda dourada */
+  object-fit: cover; /* corta certinho dentro do círculo */
 }
 
 .overlay {
