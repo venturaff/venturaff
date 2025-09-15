@@ -17,6 +17,18 @@
   z-index: -2;
 }
 
+.logo {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.logo img {
+  width: 120px;   /* tamanho da logo */
+  height: 120px;
+  border-radius: 50%; /* deixa redonda */
+  border: 3px solid #FFD700; /* borda dourada opcional */
+}
+
 .overlay {
   background: rgba(0, 0, 0, 0.7);
   min-height: 100vh;
