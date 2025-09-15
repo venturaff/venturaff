@@ -26,7 +26,7 @@
   width: 120px;   /* tamanho */
   height: 120px;
   border-radius: 50%; /* redonda */
-  border: 3px solid #A020F0; /* borda roxa */
+  border: 3px solid #4B0082; /* borda roxa */
   object-fit: cover; /* corta certinho dentro do círculo */
 }
 
@@ -40,7 +40,7 @@
 header h1 {
   font-size: 22px;
   margin-bottom: 25px;
-  color: #ffcc00;
+  color: #C084FC; /* lilás claro no título */
 }
 
 /* Categoria */
@@ -50,13 +50,13 @@ header h1 {
 
 .categoria h2 {
   font-size: 26px;
-  color: #ffcc00;
+  color: #C084FC; /* lilás */
   margin-bottom: 8px;
 }
 
 .info {
-  background: rgba(255, 204, 0, 0.1);
-  border: 1px solid #ffcc00;
+  background: rgba(75, 0, 130, 0.2); /* fundo roxo translúcido */
+  border: 1px solid #4B0082; /* borda roxa */
   border-radius: 10px;
   display: inline-block;
   padding: 8px 12px;
@@ -74,18 +74,19 @@ header h1 {
 /* Card */
 .card {
   background: #111;
-  border: 2px solid #ffcc00;
+  border: 2px solid #4B0082; /* roxo escuro */
   border-radius: 12px;
   padding: 15px;
   text-align: center;
   text-decoration: none;
   color: #fff;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s;
 }
 
 .card:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 20px rgba(255, 204, 0, 0.6);
+  border-color: #8000FF; /* roxo mais claro */
+  box-shadow: 0 0 20px rgba(128, 0, 255, 0.6);
 }
 
 .card img {
@@ -99,7 +100,7 @@ header h1 {
 .card h3 {
   font-size: 18px;
   margin-bottom: 6px;
-  color: #ffcc00;
+  color: #C084FC; /* lilás nos nomes */
 }
 
 .card .preco {
@@ -114,15 +115,16 @@ header h1 {
   align-items: center;
   gap: 15px;
   padding: 15px 20px;
-  background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%); /* roxo/azul moderno */
+  background: linear-gradient(90deg, #4B0082 0%, #8000FF 100%); /* roxo degradê */
   border-radius: 14px;
   text-decoration: none;
   margin: 20px 0;
-  transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s;
 }
 
 .grupo-box:hover {
   transform: scale(1.03);
+  box-shadow: 0 0 15px rgba(128, 0, 255, 0.5);
 }
 
 /* Ícone */
@@ -130,6 +132,7 @@ header h1 {
   width: 60px;
   height: 60px;
   border-radius: 50%;
+  border: 2px solid #8000FF;
 }
 
 /* Texto */
